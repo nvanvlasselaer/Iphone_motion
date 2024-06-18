@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct MotionDataPoint: Identifiable {
+    let id = UUID()
+    let time: Date
+    let pitch: Double
+    let roll: Double
+    let yaw: Double
+}

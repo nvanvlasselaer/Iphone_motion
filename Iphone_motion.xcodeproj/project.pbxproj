@@ -15,6 +15,10 @@
 		37F3A0892C22011500E3D2EA /* Iphone_motionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0882C22011500E3D2EA /* Iphone_motionTests.swift */; };
 		37F3A0932C22011500E3D2EA /* Iphone_motionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0922C22011500E3D2EA /* Iphone_motionUITests.swift */; };
 		37F3A0952C22011500E3D2EA /* Iphone_motionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0942C22011500E3D2EA /* Iphone_motionUITestsLaunchTests.swift */; };
+		37F3A0A22C22021400E3D2EA /* MotionChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0A12C22021400E3D2EA /* MotionChartView.swift */; };
+		37F3A0A42C22031B00E3D2EA /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0A32C22031B00E3D2EA /* MotionManager.swift */; };
+		37F3A0A62C22034800E3D2EA /* MotionDataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0A52C22034800E3D2EA /* MotionDataPoint.swift */; };
+		37F3A0AA2C2204AE00E3D2EA /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0A92C2204AE00E3D2EA /* ActivityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		37F3A08E2C22011500E3D2EA /* Iphone_motionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Iphone_motionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F3A0922C22011500E3D2EA /* Iphone_motionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iphone_motionUITests.swift; sourceTree = "<group>"; };
 		37F3A0942C22011500E3D2EA /* Iphone_motionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iphone_motionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37F3A0A12C22021400E3D2EA /* MotionChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionChartView.swift; sourceTree = "<group>"; };
+		37F3A0A32C22031B00E3D2EA /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		37F3A0A52C22034800E3D2EA /* MotionDataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDataPoint.swift; sourceTree = "<group>"; };
+		37F3A0A92C2204AE00E3D2EA /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 			children = (
 				37F3A0752C22011400E3D2EA /* Iphone_motionApp.swift */,
 				37F3A0772C22011400E3D2EA /* ContentView.swift */,
+				37F3A0A32C22031B00E3D2EA /* MotionManager.swift */,
+				37F3A0A92C2204AE00E3D2EA /* ActivityViewController.swift */,
+				37F3A0A52C22034800E3D2EA /* MotionDataPoint.swift */,
+				37F3A0A12C22021400E3D2EA /* MotionChartView.swift */,
 				37F3A0792C22011400E3D2EA /* Item.swift */,
 				37F3A07B2C22011500E3D2EA /* Assets.xcassets */,
 				37F3A07D2C22011500E3D2EA /* Preview Content */,
@@ -261,8 +273,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				37F3A0782C22011400E3D2EA /* ContentView.swift in Sources */,
+				37F3A0A42C22031B00E3D2EA /* MotionManager.swift in Sources */,
+				37F3A0AA2C2204AE00E3D2EA /* ActivityViewController.swift in Sources */,
+				37F3A0A62C22034800E3D2EA /* MotionDataPoint.swift in Sources */,
 				37F3A07A2C22011400E3D2EA /* Item.swift in Sources */,
 				37F3A0762C22011400E3D2EA /* Iphone_motionApp.swift in Sources */,
+				37F3A0A22C22021400E3D2EA /* MotionChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

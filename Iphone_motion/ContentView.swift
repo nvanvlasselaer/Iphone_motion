@@ -6,56 +6,50 @@
 //
 
 import SwiftUI
-import SwiftData
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
-
+    @StateObject private var motionManager = MotionManager()
+    
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
+        VStack {
+            Text("pitch = \(motionManager.pitch, specifier: "%.2f")")
+            Text("roll = \(motionManager.roll, specifier: "%.2f")")
+            Text("yaw = \(motionManager.yaw, specifier: "%.2f")")
+            
+            Text("quat w = \(motionManager.quaternion.w, specifier: "%.3f")")
+            Text("quat x = \(motionManager.quaternion.x, specifier: "%.3f")")
+            Text("quat y = \(motionManager.quaternion.y, specifier: "%.3f")")
+            Text("quat z = \(motionManager.quaternion.z, specifier: "%.3f")")
+            
+            HStack {
+                Button(action: {
+                    motionManager.resetData()
+                }) {
+                    Text("Reset")
                 }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
+                
+                Button(action: {
+                    motionManager.toggleDataUpdates()
+                }) {
+                    Text(motionManager.isUpdating ? "Pause" : "Resume")
                 }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
+                
+                Button(action: {
+                    motionManager.toggleRecording()
+                }) {
+                    Text(motionManager.isRecording ? "Stop Recording" : "Start Recording")
                 }
             }
-        } detail: {
-            Text("Select an item")
+            
+            MotionChartView(data: motionManager.motionDataPoints)
+                .frame(height: 300)
         }
-    }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
-            }
-        }
+        .padding()
     }
 }
 
-#Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
