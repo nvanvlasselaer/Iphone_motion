@@ -91,7 +91,7 @@ class MotionManager: ObservableObject {
     
     func saveQuaternionData() {
         let fileName = "quaternion_data.csv"
-        let path = FileManager.default.temporaryDirectory.appendingPathComponent(fileName)
+        let fileURL = FileManager.default.temporaryDirectory.appendingPathComponent(fileName)
         
         var fileContents = "w,x,y,z\n"
         for data in quaternionData {
@@ -99,13 +99,50 @@ class MotionManager: ObservableObject {
         }
         
         do {
-            try fileContents.write(to: path, atomically: true, encoding: .utf8)
-            activityItems = [path]
-            activityViewControllerPresented = true
+            try fileContents.write(to: fileURL, atomically: true, encoding: .utf8)
+            
+            // Present UIActivityViewController to share or perform actions with the saved file
+            let activityViewController = UIActivityViewController(activityItems: [fileURL], applicationActivities: nil)
+            
+            if let keyWindowScene = UIApplication.shared.connectedScenes
+                .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
+                
+                if let keyWindow = keyWindowScene.windows.first(where: { $0.isKeyWindow }) {
+                    keyWindow.rootViewController?.present(activityViewController, animated: true, completion: nil)
+                } else {
+                    print("Error: Unable to find key window to present UIActivityViewController.")
+                }
+            } else {
+                print("Error: Unable to find key window scene to present UIActivityViewController.")
+            }
+            
+            // Optionally clear the recorded data after saving
+            quaternionData.removeAll()
+            
+            // Provide feedback to the user if needed
+            print("File saved successfully: \(fileURL.absoluteString)")
+            
         } catch {
+            // Handle error
             print("Error saving file: \(error)")
+            
+            // Optionally inform the user about the error with an alert
+            let alert = UIAlertController(title: "Error", message: "Failed to save file. Please try again.", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            
+            if let keyWindowScene = UIApplication.shared.connectedScenes
+                .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
+                
+                if let keyWindow = keyWindowScene.windows.first(where: { $0.isKeyWindow }) {
+                    keyWindow.rootViewController?.present(alert, animated: true, completion: nil)
+                } else {
+                    print("Error: Unable to find key window to present UIAlertController.")
+                }
+            } else {
+                print("Error: Unable to find key window scene to present UIAlertController.")
+            }
         }
-        
-        quaternionData.removeAll()
     }
+
 }
+
