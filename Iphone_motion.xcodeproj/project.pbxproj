@@ -8,17 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		37F3A0762C22011400E3D2EA /* Iphone_motionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0752C22011400E3D2EA /* Iphone_motionApp.swift */; };
-		37F3A0782C22011400E3D2EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0772C22011400E3D2EA /* ContentView.swift */; };
-		37F3A07A2C22011400E3D2EA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0792C22011400E3D2EA /* Item.swift */; };
 		37F3A07C2C22011500E3D2EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F3A07B2C22011500E3D2EA /* Assets.xcassets */; };
 		37F3A07F2C22011500E3D2EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F3A07E2C22011500E3D2EA /* Preview Assets.xcassets */; };
 		37F3A0892C22011500E3D2EA /* Iphone_motionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0882C22011500E3D2EA /* Iphone_motionTests.swift */; };
 		37F3A0932C22011500E3D2EA /* Iphone_motionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0922C22011500E3D2EA /* Iphone_motionUITests.swift */; };
 		37F3A0952C22011500E3D2EA /* Iphone_motionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0942C22011500E3D2EA /* Iphone_motionUITestsLaunchTests.swift */; };
-		37F3A0A22C22021400E3D2EA /* MotionChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0A12C22021400E3D2EA /* MotionChartView.swift */; };
-		37F3A0A42C22031B00E3D2EA /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0A32C22031B00E3D2EA /* MotionManager.swift */; };
-		37F3A0A62C22034800E3D2EA /* MotionDataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0A52C22034800E3D2EA /* MotionDataPoint.swift */; };
 		37F3A0AA2C2204AE00E3D2EA /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F3A0A92C2204AE00E3D2EA /* ActivityViewController.swift */; };
+		318631810D8CC6BA56113C20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D5E1F0F7AAE8743EDA6F8 /* AppDelegate.swift */; };
+		6E6939BC0BE6158E17550DC7 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49F216ADAD929C3F2CA5C1 /* AppEnvironment.swift */; };
+		60DFB6F3B707658140BDF10D /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759E722814D2BB0C1B9D3953 /* SettingsStore.swift */; };
+		29B354AB4ABAD0990096579E /* ProtocolRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6041E0CBF912D530C76291 /* ProtocolRunner.swift */; };
+		ED45550E47D3AA4CB89DC026 /* SpeechCuePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D546AC2BC1C294AEC0C743F /* SpeechCuePlayer.swift */; };
+		2A25D76FC394DFDD8D65BC10 /* ClockSyncController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D54F1588696FD02681B17A /* ClockSyncController.swift */; };
+		43EE47CDAD53723E7980D68E /* PhoneLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA377C4903FD436E02748C /* PhoneLink.swift */; };
+		C84447E33079B95B32950571 /* WatchLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BEE8EAFB4AF8598EBC0FED /* WatchLauncher.swift */; };
+		72C0584E7F0B3C6CBB0053C0 /* LifecycleMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C630907F0246BEC2C7728A /* LifecycleMonitor.swift */; };
+		14A09D3D93528680F7C2A488 /* PhoneMotionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72A8E5FFFC4E1B8B6F27036 /* PhoneMotionRecorder.swift */; };
+		617008B3A25810968163CB84 /* PocketModeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4B67E897EEE8685F1727C /* PocketModeController.swift */; };
+		0C4B19A1DC73BE319C1B3EC6 /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77E40733EE2C841AF510A45 /* ExportService.swift */; };
+		BC63A7AD002C1E3A09404B82 /* SessionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510C458F631C2D55F5B5C305 /* SessionCoordinator.swift */; };
+		33E6EBF455C269EBDA033BDC /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7D42891363E3EB303C2ABB /* SessionStore.swift */; };
+		63EB4395888D677BF7E9E38E /* WatchIngestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B21E123FE3D590C9DC4CEF /* WatchIngestor.swift */; };
+		24C1FEF4141A141EA997579F /* LivePreviewChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B872CBE11E2D6065923DB4A /* LivePreviewChart.swift */; };
+		B1AF4B703C07AB9E10A93C1D /* PocketOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E23DF31073DA95BA03D6D9B /* PocketOverlay.swift */; };
+		D0E7CB98116DE5E1901F4611 /* RecordSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FDD7ADDBDE22036B65C34D /* RecordSetupView.swift */; };
+		65433D32980E1FF4E95082F1 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F409E32941EAD4230535ADAC /* RecordingView.swift */; };
+		16D83E34DDBAC4B5E8A02254 /* WatchStatusCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501DDA5E45B23E38950D0E75 /* WatchStatusCard.swift */; };
+		2ED227793BC19B808CB5D8A7 /* SessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572567D5B7C23102C618F9EA /* SessionDetailView.swift */; };
+		A2EDD08C9EEB9EE78548FBD6 /* SessionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E3B468D51CF5A22C77644A /* SessionListView.swift */; };
+		0B370A4214351105D245B336 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3777AF681CA992CAAB1A77E2 /* AboutView.swift */; };
+		AB77BD88FEDD659C066C5E68 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9051AF703FA7CDE2279DC4 /* SettingsView.swift */; };
+		F74F0E7085497AEA4E30D575 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35DAA1884C792929A48EF4C /* RootView.swift */; };
+		41B7A49A770774F480155D16 /* RecorderCore in Frameworks */ = {isa = PBXBuildFile; productRef = 83E0B235EEF21A768181C614 /* RecorderCore */; };
+		954AAE1558DF40D2704224EF /* WatchRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A4203055B07C0335303933 /* WatchRecordingView.swift */; };
+		37D6D9BB9D4FD7796B5B1592 /* WatchRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7930929571D8AE903BA4F250 /* WatchRootView.swift */; };
+		348094282943D82115D2F24C /* IphoneMotionWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE7EA4A1E5927C90AE6A996 /* IphoneMotionWatchApp.swift */; };
+		4D0FD69D0DB498FA41DFBCE0 /* WatchAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1768580B0A9883BBD3A1EA9 /* WatchAppDelegate.swift */; };
+		2E9539CDB525671873A81C98 /* WatchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66C1D955722BBD096B57CC7 /* WatchController.swift */; };
+		245E10198EB59FF140256192 /* WatchLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11468F96AB3F4DEF05D2A90A /* WatchLink.swift */; };
+		385C8F86A4919104D7986E81 /* WatchMotionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA94F8372587FFB77379FDB /* WatchMotionRecorder.swift */; };
+		E2EB193D173552C470A68968 /* WatchSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB945A7D7957C2C1CCCF73CF /* WatchSessionStore.swift */; };
+		ECBA96FCF3B835D9E6EF8B28 /* WorkoutSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E765C25A750A8C918EF3E4 /* WorkoutSessionManager.swift */; };
+		724E15618B34B2642EFDF5DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5169159CF4FE47DD6BACAF36 /* Assets.xcassets */; };
+		FDF94275FC8D203ED7C204A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5634F4FC11DB91177DE2C4F5 /* Preview Assets.xcassets */; };
+		D47AB625E5C8152A5E343496 /* RecorderCore in Frameworks */ = {isa = PBXBuildFile; productRef = 283420AA80960CB2D86340A3 /* RecorderCore */; };
+		B9A063B29DE3ECA3B04CF361 /* Iphone_motion Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 87EC2C90CF0730C2D03870CB /* Iphone_motion Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +70,32 @@
 			remoteGlobalIDString = 37F3A0712C22011400E3D2EA;
 			remoteInfo = Iphone_motion;
 		};
+		FCE2F3B6C69F16EE5DBF6D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37F3A06A2C22011400E3D2EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7323D093ACF6B438DC887C3;
+			remoteInfo = "Iphone_motion Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C44AEC213A8E95358F70EFC2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B9A063B29DE3ECA3B04CF361 /* Iphone_motion Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		37F3A0722C22011400E3D2EA /* Iphone_motion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iphone_motion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F3A0752C22011400E3D2EA /* Iphone_motionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iphone_motionApp.swift; sourceTree = "<group>"; };
-		37F3A0772C22011400E3D2EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		37F3A0792C22011400E3D2EA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		37F3A07B2C22011500E3D2EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37F3A07E2C22011500E3D2EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		37F3A0842C22011500E3D2EA /* Iphone_motionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Iphone_motionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,10 +103,49 @@
 		37F3A08E2C22011500E3D2EA /* Iphone_motionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Iphone_motionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F3A0922C22011500E3D2EA /* Iphone_motionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iphone_motionUITests.swift; sourceTree = "<group>"; };
 		37F3A0942C22011500E3D2EA /* Iphone_motionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iphone_motionUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		37F3A0A12C22021400E3D2EA /* MotionChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionChartView.swift; sourceTree = "<group>"; };
-		37F3A0A32C22031B00E3D2EA /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
-		37F3A0A52C22034800E3D2EA /* MotionDataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDataPoint.swift; sourceTree = "<group>"; };
 		37F3A0A92C2204AE00E3D2EA /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		CE8D5E1F0F7AAE8743EDA6F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED49F216ADAD929C3F2CA5C1 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		759E722814D2BB0C1B9D3953 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		7E6041E0CBF912D530C76291 /* ProtocolRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolRunner.swift; sourceTree = "<group>"; };
+		7D546AC2BC1C294AEC0C743F /* SpeechCuePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechCuePlayer.swift; sourceTree = "<group>"; };
+		F2D54F1588696FD02681B17A /* ClockSyncController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockSyncController.swift; sourceTree = "<group>"; };
+		AAAA377C4903FD436E02748C /* PhoneLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneLink.swift; sourceTree = "<group>"; };
+		25BEE8EAFB4AF8598EBC0FED /* WatchLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLauncher.swift; sourceTree = "<group>"; };
+		F2C630907F0246BEC2C7728A /* LifecycleMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleMonitor.swift; sourceTree = "<group>"; };
+		B72A8E5FFFC4E1B8B6F27036 /* PhoneMotionRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneMotionRecorder.swift; sourceTree = "<group>"; };
+		53C4B67E897EEE8685F1727C /* PocketModeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketModeController.swift; sourceTree = "<group>"; };
+		B77E40733EE2C841AF510A45 /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		510C458F631C2D55F5B5C305 /* SessionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCoordinator.swift; sourceTree = "<group>"; };
+		6F7D42891363E3EB303C2ABB /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		16B21E123FE3D590C9DC4CEF /* WatchIngestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchIngestor.swift; sourceTree = "<group>"; };
+		5B872CBE11E2D6065923DB4A /* LivePreviewChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePreviewChart.swift; sourceTree = "<group>"; };
+		5E23DF31073DA95BA03D6D9B /* PocketOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketOverlay.swift; sourceTree = "<group>"; };
+		48FDD7ADDBDE22036B65C34D /* RecordSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSetupView.swift; sourceTree = "<group>"; };
+		F409E32941EAD4230535ADAC /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		501DDA5E45B23E38950D0E75 /* WatchStatusCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchStatusCard.swift; sourceTree = "<group>"; };
+		572567D5B7C23102C618F9EA /* SessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
+		38E3B468D51CF5A22C77644A /* SessionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionListView.swift; sourceTree = "<group>"; };
+		3777AF681CA992CAAB1A77E2 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		BB9051AF703FA7CDE2279DC4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C35DAA1884C792929A48EF4C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		98936A1D6C81F9BAF054F97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7F15810341A62AEF5B29DD2 /* Iphone_motion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Iphone_motion.entitlements; sourceTree = "<group>"; };
+		2A462DCFDE5BAE6A7635D747 /* RecorderCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RecorderCore; sourceTree = "<group>"; };
+		C2A4203055B07C0335303933 /* WatchRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRecordingView.swift; sourceTree = "<group>"; };
+		7930929571D8AE903BA4F250 /* WatchRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRootView.swift; sourceTree = "<group>"; };
+		8BE7EA4A1E5927C90AE6A996 /* IphoneMotionWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IphoneMotionWatchApp.swift; sourceTree = "<group>"; };
+		A1768580B0A9883BBD3A1EA9 /* WatchAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchAppDelegate.swift; sourceTree = "<group>"; };
+		A66C1D955722BBD096B57CC7 /* WatchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchController.swift; sourceTree = "<group>"; };
+		11468F96AB3F4DEF05D2A90A /* WatchLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLink.swift; sourceTree = "<group>"; };
+		8CA94F8372587FFB77379FDB /* WatchMotionRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMotionRecorder.swift; sourceTree = "<group>"; };
+		BB945A7D7957C2C1CCCF73CF /* WatchSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionStore.swift; sourceTree = "<group>"; };
+		89E765C25A750A8C918EF3E4 /* WorkoutSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSessionManager.swift; sourceTree = "<group>"; };
+		5169159CF4FE47DD6BACAF36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5634F4FC11DB91177DE2C4F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD4129F031AF314F2E742F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88BDF03582B6E1748EE643B /* Iphone_motion Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Iphone_motion Watch App.entitlements"; sourceTree = "<group>"; };
+		87EC2C90CF0730C2D03870CB /* Iphone_motion Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iphone_motion Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41B7A49A770774F480155D16 /* RecorderCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +171,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7A32A1C14D71303023EF8DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47AB625E5C8152A5E343496 /* RecorderCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,6 +189,8 @@
 				37F3A0872C22011500E3D2EA /* Iphone_motionTests */,
 				37F3A0912C22011500E3D2EA /* Iphone_motionUITests */,
 				37F3A0732C22011400E3D2EA /* Products */,
+				B84EF6DDE3D061B0E910F732 /* Packages */,
+				C8A58A85B3BCED6A8950FBA6 /* Iphone_motion Watch App */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +200,7 @@
 				37F3A0722C22011400E3D2EA /* Iphone_motion.app */,
 				37F3A0842C22011500E3D2EA /* Iphone_motionTests.xctest */,
 				37F3A08E2C22011500E3D2EA /* Iphone_motionUITests.xctest */,
+				87EC2C90CF0730C2D03870CB /* Iphone_motion Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,14 +209,17 @@
 			isa = PBXGroup;
 			children = (
 				37F3A0752C22011400E3D2EA /* Iphone_motionApp.swift */,
-				37F3A0772C22011400E3D2EA /* ContentView.swift */,
-				37F3A0A32C22031B00E3D2EA /* MotionManager.swift */,
 				37F3A0A92C2204AE00E3D2EA /* ActivityViewController.swift */,
-				37F3A0A52C22034800E3D2EA /* MotionDataPoint.swift */,
-				37F3A0A12C22021400E3D2EA /* MotionChartView.swift */,
-				37F3A0792C22011400E3D2EA /* Item.swift */,
 				37F3A07B2C22011500E3D2EA /* Assets.xcassets */,
 				37F3A07D2C22011500E3D2EA /* Preview Content */,
+				958AD0A66DDAB52613EC96B5 /* App */,
+				FD634B887848F53C30718719 /* Guidance */,
+				909A754321E63C32F9643C00 /* Link */,
+				C257FEA53AD7DA6C93CCE083 /* Recording */,
+				C80B10D59C3900B7BF7FB990 /* Session */,
+				655FF0D8BC5F0098BDF1022C /* UI */,
+				98936A1D6C81F9BAF054F97D /* Info.plist */,
+				E7F15810341A62AEF5B29DD2 /* Iphone_motion.entitlements */,
 			);
 			path = Iphone_motion;
 			sourceTree = "<group>";
@@ -142,6 +249,141 @@
 			path = Iphone_motionUITests;
 			sourceTree = "<group>";
 		};
+		958AD0A66DDAB52613EC96B5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE8D5E1F0F7AAE8743EDA6F8 /* AppDelegate.swift */,
+				ED49F216ADAD929C3F2CA5C1 /* AppEnvironment.swift */,
+				759E722814D2BB0C1B9D3953 /* SettingsStore.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FD634B887848F53C30718719 /* Guidance */ = {
+			isa = PBXGroup;
+			children = (
+				7E6041E0CBF912D530C76291 /* ProtocolRunner.swift */,
+				7D546AC2BC1C294AEC0C743F /* SpeechCuePlayer.swift */,
+			);
+			path = Guidance;
+			sourceTree = "<group>";
+		};
+		909A754321E63C32F9643C00 /* Link */ = {
+			isa = PBXGroup;
+			children = (
+				F2D54F1588696FD02681B17A /* ClockSyncController.swift */,
+				AAAA377C4903FD436E02748C /* PhoneLink.swift */,
+				25BEE8EAFB4AF8598EBC0FED /* WatchLauncher.swift */,
+			);
+			path = Link;
+			sourceTree = "<group>";
+		};
+		C257FEA53AD7DA6C93CCE083 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				F2C630907F0246BEC2C7728A /* LifecycleMonitor.swift */,
+				B72A8E5FFFC4E1B8B6F27036 /* PhoneMotionRecorder.swift */,
+				53C4B67E897EEE8685F1727C /* PocketModeController.swift */,
+			);
+			path = Recording;
+			sourceTree = "<group>";
+		};
+		C80B10D59C3900B7BF7FB990 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				B77E40733EE2C841AF510A45 /* ExportService.swift */,
+				510C458F631C2D55F5B5C305 /* SessionCoordinator.swift */,
+				6F7D42891363E3EB303C2ABB /* SessionStore.swift */,
+				16B21E123FE3D590C9DC4CEF /* WatchIngestor.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		6D9E40D1296F26B59EC81CF6 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				5B872CBE11E2D6065923DB4A /* LivePreviewChart.swift */,
+				5E23DF31073DA95BA03D6D9B /* PocketOverlay.swift */,
+				48FDD7ADDBDE22036B65C34D /* RecordSetupView.swift */,
+				F409E32941EAD4230535ADAC /* RecordingView.swift */,
+				501DDA5E45B23E38950D0E75 /* WatchStatusCard.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		E0A5B3833C19397EB0279DB2 /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				572567D5B7C23102C618F9EA /* SessionDetailView.swift */,
+				38E3B468D51CF5A22C77644A /* SessionListView.swift */,
+			);
+			path = Sessions;
+			sourceTree = "<group>";
+		};
+		DD97BD50AC1CEA6235F86F7B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3777AF681CA992CAAB1A77E2 /* AboutView.swift */,
+				BB9051AF703FA7CDE2279DC4 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		655FF0D8BC5F0098BDF1022C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6D9E40D1296F26B59EC81CF6 /* Record */,
+				E0A5B3833C19397EB0279DB2 /* Sessions */,
+				DD97BD50AC1CEA6235F86F7B /* Settings */,
+				C35DAA1884C792929A48EF4C /* RootView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B84EF6DDE3D061B0E910F732 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				2A462DCFDE5BAE6A7635D747 /* RecorderCore */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		F277DA906B98C7D621C3372C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2A4203055B07C0335303933 /* WatchRecordingView.swift */,
+				7930929571D8AE903BA4F250 /* WatchRootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		222D55438CD31F889396D95B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5634F4FC11DB91177DE2C4F5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8A58A85B3BCED6A8950FBA6 /* Iphone_motion Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F277DA906B98C7D621C3372C /* Views */,
+				8BE7EA4A1E5927C90AE6A996 /* IphoneMotionWatchApp.swift */,
+				A1768580B0A9883BBD3A1EA9 /* WatchAppDelegate.swift */,
+				A66C1D955722BBD096B57CC7 /* WatchController.swift */,
+				11468F96AB3F4DEF05D2A90A /* WatchLink.swift */,
+				8CA94F8372587FFB77379FDB /* WatchMotionRecorder.swift */,
+				BB945A7D7957C2C1CCCF73CF /* WatchSessionStore.swift */,
+				89E765C25A750A8C918EF3E4 /* WorkoutSessionManager.swift */,
+				5169159CF4FE47DD6BACAF36 /* Assets.xcassets */,
+				FD4129F031AF314F2E742F7C /* Info.plist */,
+				A88BDF03582B6E1748EE643B /* Iphone_motion Watch App.entitlements */,
+				222D55438CD31F889396D95B /* Preview Content */,
+			);
+			path = "Iphone_motion Watch App";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,12 +394,17 @@
 				37F3A06E2C22011400E3D2EA /* Sources */,
 				37F3A06F2C22011400E3D2EA /* Frameworks */,
 				37F3A0702C22011400E3D2EA /* Resources */,
+				C44AEC213A8E95358F70EFC2 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CD45BBE64A30FDD30E3D75DC /* PBXTargetDependency */,
 			);
 			name = Iphone_motion;
+			packageProductDependencies = (
+				83E0B235EEF21A768181C614 /* RecorderCore */,
+			);
 			productName = Iphone_motion;
 			productReference = 37F3A0722C22011400E3D2EA /* Iphone_motion.app */;
 			productType = "com.apple.product-type.application";
@@ -198,6 +445,26 @@
 			productReference = 37F3A08E2C22011500E3D2EA /* Iphone_motionUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C7323D093ACF6B438DC887C3 /* Iphone_motion Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE634891DEC438AF1E5DB369 /* Build configuration list for PBXNativeTarget "Iphone_motion Watch App" */;
+			buildPhases = (
+				D3F1ADEA14C4AAD4EA3E4EEE /* Sources */,
+				7A32A1C14D71303023EF8DCC /* Frameworks */,
+				E6FA4D99D583D77812A5A8D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Iphone_motion Watch App";
+			packageProductDependencies = (
+				283420AA80960CB2D86340A3 /* RecorderCore */,
+			);
+			productName = "Iphone_motion Watch App";
+			productReference = 87EC2C90CF0730C2D03870CB /* Iphone_motion Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,6 +486,9 @@
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = 37F3A0712C22011400E3D2EA;
 					};
+					C7323D093ACF6B438DC887C3 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 				};
 			};
 			buildConfigurationList = 37F3A06D2C22011400E3D2EA /* Build configuration list for PBXProject "Iphone_motion" */;
@@ -237,6 +507,7 @@
 				37F3A0712C22011400E3D2EA /* Iphone_motion */,
 				37F3A0832C22011500E3D2EA /* Iphone_motionTests */,
 				37F3A08D2C22011500E3D2EA /* Iphone_motionUITests */,
+				C7323D093ACF6B438DC887C3 /* Iphone_motion Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -265,6 +536,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6FA4D99D583D77812A5A8D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724E15618B34B2642EFDF5DC /* Assets.xcassets in Resources */,
+				FDF94275FC8D203ED7C204A3 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -272,13 +552,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37F3A0782C22011400E3D2EA /* ContentView.swift in Sources */,
-				37F3A0A42C22031B00E3D2EA /* MotionManager.swift in Sources */,
 				37F3A0AA2C2204AE00E3D2EA /* ActivityViewController.swift in Sources */,
-				37F3A0A62C22034800E3D2EA /* MotionDataPoint.swift in Sources */,
-				37F3A07A2C22011400E3D2EA /* Item.swift in Sources */,
 				37F3A0762C22011400E3D2EA /* Iphone_motionApp.swift in Sources */,
-				37F3A0A22C22021400E3D2EA /* MotionChartView.swift in Sources */,
+				318631810D8CC6BA56113C20 /* AppDelegate.swift in Sources */,
+				6E6939BC0BE6158E17550DC7 /* AppEnvironment.swift in Sources */,
+				60DFB6F3B707658140BDF10D /* SettingsStore.swift in Sources */,
+				29B354AB4ABAD0990096579E /* ProtocolRunner.swift in Sources */,
+				ED45550E47D3AA4CB89DC026 /* SpeechCuePlayer.swift in Sources */,
+				2A25D76FC394DFDD8D65BC10 /* ClockSyncController.swift in Sources */,
+				43EE47CDAD53723E7980D68E /* PhoneLink.swift in Sources */,
+				C84447E33079B95B32950571 /* WatchLauncher.swift in Sources */,
+				72C0584E7F0B3C6CBB0053C0 /* LifecycleMonitor.swift in Sources */,
+				14A09D3D93528680F7C2A488 /* PhoneMotionRecorder.swift in Sources */,
+				617008B3A25810968163CB84 /* PocketModeController.swift in Sources */,
+				0C4B19A1DC73BE319C1B3EC6 /* ExportService.swift in Sources */,
+				BC63A7AD002C1E3A09404B82 /* SessionCoordinator.swift in Sources */,
+				33E6EBF455C269EBDA033BDC /* SessionStore.swift in Sources */,
+				63EB4395888D677BF7E9E38E /* WatchIngestor.swift in Sources */,
+				24C1FEF4141A141EA997579F /* LivePreviewChart.swift in Sources */,
+				B1AF4B703C07AB9E10A93C1D /* PocketOverlay.swift in Sources */,
+				D0E7CB98116DE5E1901F4611 /* RecordSetupView.swift in Sources */,
+				65433D32980E1FF4E95082F1 /* RecordingView.swift in Sources */,
+				16D83E34DDBAC4B5E8A02254 /* WatchStatusCard.swift in Sources */,
+				2ED227793BC19B808CB5D8A7 /* SessionDetailView.swift in Sources */,
+				A2EDD08C9EEB9EE78548FBD6 /* SessionListView.swift in Sources */,
+				0B370A4214351105D245B336 /* AboutView.swift in Sources */,
+				AB77BD88FEDD659C066C5E68 /* SettingsView.swift in Sources */,
+				F74F0E7085497AEA4E30D575 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +599,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3F1ADEA14C4AAD4EA3E4EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954AAE1558DF40D2704224EF /* WatchRecordingView.swift in Sources */,
+				37D6D9BB9D4FD7796B5B1592 /* WatchRootView.swift in Sources */,
+				348094282943D82115D2F24C /* IphoneMotionWatchApp.swift in Sources */,
+				4D0FD69D0DB498FA41DFBCE0 /* WatchAppDelegate.swift in Sources */,
+				2E9539CDB525671873A81C98 /* WatchController.swift in Sources */,
+				245E10198EB59FF140256192 /* WatchLink.swift in Sources */,
+				385C8F86A4919104D7986E81 /* WatchMotionRecorder.swift in Sources */,
+				E2EB193D173552C470A68968 /* WatchSessionStore.swift in Sources */,
+				ECBA96FCF3B835D9E6EF8B28 /* WorkoutSessionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -311,6 +627,11 @@
 			isa = PBXTargetDependency;
 			target = 37F3A0712C22011400E3D2EA /* Iphone_motion */;
 			targetProxy = 37F3A08F2C22011500E3D2EA /* PBXContainerItemProxy */;
+		};
+		CD45BBE64A30FDD30E3D75DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7323D093ACF6B438DC887C3 /* Iphone_motion Watch App */;
+			targetProxy = FCE2F3B6C69F16EE5DBF6D35 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -440,27 +761,32 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Iphone_motion/Iphone_motion.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Iphone_motion/Preview Content\"";
 				DEVELOPMENT_TEAM = A4FDRZCUG6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Iphone_motion/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "No Health data is read. HealthKit only runs the Apple Watch recording as a workout session.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "HealthKit runs the Apple Watch recording as a workout session so the Watch sensors keep running. No workouts are saved.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion sensor data of the iPhone and Apple Watch is recorded for kinematic analysis.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolasvv.Iphone-motion";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,27 +795,32 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Iphone_motion/Iphone_motion.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Iphone_motion/Preview Content\"";
 				DEVELOPMENT_TEAM = A4FDRZCUG6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Iphone_motion/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "No Health data is read. HealthKit only runs the Apple Watch recording as a workout session.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "HealthKit runs the Apple Watch recording as a workout session so the Watch sensors keep running. No workouts are saved.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion sensor data of the iPhone and Apple Watch is recorded for kinematic analysis.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolasvv.Iphone-motion";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -569,6 +900,78 @@
 			};
 			name = Release;
 		};
+		08FEB093A4CD9EFD41549BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Iphone_motion Watch App/Iphone_motion Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Iphone_motion Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = A4FDRZCUG6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Iphone_motion Watch App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Iphone_motion;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "No Health data is read. HealthKit only runs the Apple Watch recording as a workout session.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "HealthKit runs the Apple Watch recording as a workout session so the Watch sensors keep running. No workouts are saved.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion sensor data of the iPhone and Apple Watch is recorded for kinematic analysis.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.nicolasvv.Iphone-motion";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolasvv.Iphone-motion.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		50DEA0183E717D99526D44E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Iphone_motion Watch App/Iphone_motion Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Iphone_motion Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = A4FDRZCUG6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Iphone_motion Watch App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Iphone_motion;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "No Health data is read. HealthKit only runs the Apple Watch recording as a workout session.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "HealthKit runs the Apple Watch recording as a workout session so the Watch sensors keep running. No workouts are saved.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion sensor data of the iPhone and Apple Watch is recorded for kinematic analysis.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.nicolasvv.Iphone-motion";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolasvv.Iphone-motion.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -608,7 +1011,27 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		FE634891DEC438AF1E5DB369 /* Build configuration list for PBXNativeTarget "Iphone_motion Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08FEB093A4CD9EFD41549BFF /* Debug */,
+				50DEA0183E717D99526D44E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		83E0B235EEF21A768181C614 /* RecorderCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RecorderCore;
+		};
+		283420AA80960CB2D86340A3 /* RecorderCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RecorderCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 37F3A06A2C22011400E3D2EA /* Project object */;
 }

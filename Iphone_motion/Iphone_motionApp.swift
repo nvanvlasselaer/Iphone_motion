@@ -6,13 +6,18 @@
 //
 
 import SwiftUI
-//import SwiftData
 
 @main
 struct MyApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
+                .environment(AppEnvironment.shared.coordinator)
+                .environment(AppEnvironment.shared.settings)
+                .environment(AppEnvironment.shared.pocket)
+                .environment(AppEnvironment.shared.runner)
         }
     }
 }
